@@ -41,7 +41,7 @@ public class SWETestTest {
         driver.findElement(By.linkText("엔터")).click();
         js.executeScript("window.scrollTo(0,49.5)");
         driver.findElement(By.id("query")).click();
-        driver.findElement(By.id("query")).sendKeys("홍익대학교");
+        driver.findElement(By.id("query")).sendKeys("홍익대");
         driver.findElement(By.id("query")).sendKeys(Keys.ENTER);
 
         driver.get("https://www.hongik.ac.kr/index.do");
