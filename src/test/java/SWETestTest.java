@@ -50,5 +50,6 @@ public class SWETestTest {
         driver.findElement(By.linkText("주요서비스")).click();
         driver.findElement(By.linkText("일반")).click();
         driver.findElement(By.linkText("학생")).click();
+        // driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
     }
 }
